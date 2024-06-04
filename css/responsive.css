@@ -1,0 +1,41 @@
+@media (max-width:1123px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-position: top center;
+        background-size: 100%;
+    }
+
+    .huddle__header {
+        margin: 2.4em 0em;
+    }
+
+    .huddle__header__logo {
+        max-width: 243px;
+        height: 41px;
+    }
+
+    .huddle__introduction {
+        flex-direction: column;
+        text-align: center;
+        gap: 3em;
+    }
+
+    .huddle__introduction__txt__t {
+        font-size: 1.5em;
+    }
+    
+    .huddle__introduction__register {
+        height: 40px;
+    }
+
+    .huddle__social__media {
+        position: unset;
+        margin-top: 4em;
+        gap: 1.1rem;
+    }
+
+    .attribution {
+        position: unset;
+        margin-top: 7em;
+    }
+}

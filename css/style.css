@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft_Magenta: hsl(300, 69%, 71%);
+    --White: hsl(0, 0%, 100%);
+    --Font__Poppins:  'Poppins', sans-serif;
+    --Font__Open__Sans:  'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Violet);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0em 2.3em;
+}
+
+.huddle {
+    position: relative;
+}
+
+.huddle__header {
+    margin-bottom: 6em;
+}
+
+.huddle__header__logo {
+    max-width: 202px;
+}
+
+.huddle__introduction {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.huddle__introduction__page-img {
+    width: 100%;
+    max-width: 696px;
+    object-fit: cover;
+}
+
+.huddle__introduction__txt {
+    width: 100%;
+    max-width: 460px;
+    color: var(--White);
+}
+
+.huddle__introduction__txt__t {
+    font-family: var(--Font__Poppins);
+    font-size: 2.2em;
+}
+
+.huddle__introduction__txt__p {
+    font-family: var(--Font__Open__Sans);
+    margin-top: 1.5em;
+}
+
+.huddle__introduction__register {
+    width: 100%;
+    max-width: 204px;
+    height: 58px;
+    border-radius: 5em;
+    margin-top: 1.625rem;
+    font-family: var(--Font__Poppins);
+    font-size: 1em;
+    color: var(--Violet);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.huddle__introduction__register:hover {
+    background-color: var(--Soft_Magenta);
+    color: var(--White);
+}
+
+.huddle__introduction__register:active {
+    transform: scale(0.92);
+}
+
+.huddle__social__media {
+    position: absolute;
+    right: 0;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.huddle__social__media-icons {
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--White);
+    border: 2px solid var(--White);
+    border-radius: 100%;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.huddle__social__media-icons:hover {
+    color: var(--Soft_Magenta);
+    border-color: var(--Soft_Magenta);
+}
+
+.huddle__social__media-icons:active {
+    transform: scale(0.92);
+}
+
+.attribution {
+    position: absolute;
+    padding: .5rem;
+    margin-top: 71em;
+    color: var(--White);
+    text-align: center;
+    font-family: var(--Font__Poppins);
+    font-size: .8em;
+}
+
+.attribution a {
+    color: var(--Soft_Magenta);
+}
